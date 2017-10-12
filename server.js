@@ -27,8 +27,6 @@ parser.on('data', (dato) => {
 
 
 
-// nos suscribimos al evento de socketIO cuando
-// un cliente se conecta por WebSockets
 io.sockets.on('connection', function (socket) {
 	console.log("Usuario conectado");
 
